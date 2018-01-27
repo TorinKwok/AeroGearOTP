@@ -22,6 +22,18 @@
 		81F41B6CCA6DEFDD3B02DDDB /* AGTotp.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F41619A751E93404EB6E4B /* AGTotp.m */; };
 		81F41E8603F38A15A3D6DE7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F41D8D0107C4A79962F802 /* Foundation.framework */; };
 		81F41EF24351CF2FDE3EAB37 /* AGOtp.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F41A09B543FA84D4F3E6FF /* AGOtp.m */; };
+		8341690D201C47B000382C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8341690C201C47B000382C64 /* Foundation.framework */; };
+		8341690F201C47D300382C64 /* AGTotp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81F41F70D8A686C1492A99EC /* AGTotp.h */; };
+		83416910201C47D300382C64 /* AGOtp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81F41214CF9DDC5E95CC61D0 /* AGOtp.h */; };
+		83416911201C47D300382C64 /* AGClock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81F417C839AD9C2AC8FA1BA3 /* AGClock.h */; };
+		83416912201C47D300382C64 /* AGStringEncoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81F4116F749633D5D40920F4 /* AGStringEncoding.h */; };
+		83416913201C47D300382C64 /* AGBase32.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81F41C3A626C603D977F068A /* AGBase32.h */; };
+		83416914201C47D300382C64 /* AeroGearOTP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 57A0DA83165E2CFA00F6965A /* AeroGearOTP.h */; };
+		83416915201C47DE00382C64 /* AGTotp.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F41619A751E93404EB6E4B /* AGTotp.m */; };
+		83416916201C47DE00382C64 /* AGOtp.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F41A09B543FA84D4F3E6FF /* AGOtp.m */; };
+		83416917201C47DE00382C64 /* AGClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F418EFDDBDCB1AEDB7E5CB /* AGClock.m */; };
+		83416918201C47DE00382C64 /* AGStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F415D53FE00D394660FECD /* AGStringEncoding.m */; };
+		83416919201C47DE00382C64 /* AGBase32.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F410518A256C3F0B7D3755 /* AGBase32.m */; };
 		C45A746F4A683D7C6FE9F60C /* libPods-AeroGearOTPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55183D61952EC710A4FBAC31 /* libPods-AeroGearOTPTests.a */; };
 		E11169A216724E6900C07264 /* AGClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11169A116724E6900C07264 /* AGClockTests.m */; };
 		E19BA98316727DDC00736639 /* AGClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F418EFDDBDCB1AEDB7E5CB /* AGClock.m */; };
@@ -37,7 +49,7 @@
 			containerPortal = 81F411BA5904484694D442E0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 81F412E1D1AC3AA31388DBC2;
-			remoteInfo = "AeroGearOTP";
+			remoteInfo = AeroGearOTP;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,6 +68,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8341690E201C47C100382C64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				8341690F201C47D300382C64 /* AGTotp.h in CopyFiles */,
+				83416910201C47D300382C64 /* AGOtp.h in CopyFiles */,
+				83416911201C47D300382C64 /* AGClock.h in CopyFiles */,
+				83416912201C47D300382C64 /* AGStringEncoding.h in CopyFiles */,
+				83416913201C47D300382C64 /* AGBase32.h in CopyFiles */,
+				83416914201C47D300382C64 /* AeroGearOTP.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -70,7 +97,7 @@
 		81F413635101311EA2858A9A /* AGTotpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGTotpTests.m; sourceTree = "<group>"; };
 		81F415D53FE00D394660FECD /* AGStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGStringEncoding.m; path = Classes/AGStringEncoding.m; sourceTree = "<group>"; };
 		81F41619A751E93404EB6E4B /* AGTotp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGTotp.m; path = Classes/AGTotp.m; sourceTree = "<group>"; };
-		81F41621D94B6B79552689A3 /* libAeroGearOTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libAeroGearOTP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F41621D94B6B79552689A3 /* libAeroGearOTP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAeroGearOTP.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F417C839AD9C2AC8FA1BA3 /* AGClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGClock.h; path = Classes/AGClock.h; sourceTree = "<group>"; };
 		81F418EFDDBDCB1AEDB7E5CB /* AGClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGClock.m; path = Classes/AGClock.m; sourceTree = "<group>"; };
 		81F41A09B543FA84D4F3E6FF /* AGOtp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGOtp.m; path = Classes/AGOtp.m; sourceTree = "<group>"; };
@@ -79,8 +106,12 @@
 		81F41C3A626C603D977F068A /* AGBase32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGBase32.h; path = Classes/AGBase32.h; sourceTree = "<group>"; };
 		81F41C79681C1E7FC6E18233 /* AeroGearOTPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AeroGearOTPTests-Info.plist"; sourceTree = "<group>"; };
 		81F41D8D0107C4A79962F802 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		81F41DAAA0F339CAA4A45113 /* AeroGearOTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AeroGearOTPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F41DAAA0F339CAA4A45113 /* AeroGearOTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeroGearOTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F41F70D8A686C1492A99EC /* AGTotp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGTotp.h; path = Classes/AGTotp.h; sourceTree = "<group>"; };
+		83416904201C475A00382C64 /* AeroGearOTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AeroGearOTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83416906201C475B00382C64 /* AeroGearOTP_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AeroGearOTP_Mac.h; sourceTree = "<group>"; };
+		83416907201C475B00382C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8341690C201C47B000382C64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E11169A116724E6900C07264 /* AGClockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGClockTests.m; sourceTree = "<group>"; };
 		EDEE05E304D7DD67AD2F7F2B /* Pods-AeroGearOTPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroGearOTPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AeroGearOTPTests/Pods-AeroGearOTPTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +135,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83416900201C475A00382C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8341690D201C47B000382C64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -123,7 +162,7 @@
 				81F413635101311EA2858A9A /* AGTotpTests.m */,
 				E11169A116724E6900C07264 /* AGClockTests.m */,
 			);
-			path = "AeroGearOTPTests";
+			path = AeroGearOTPTests;
 			sourceTree = "<group>";
 		};
 		81F415AECDD9C8C189F9DF76 /* Products */ = {
@@ -131,6 +170,7 @@
 			children = (
 				81F41621D94B6B79552689A3 /* libAeroGearOTP.a */,
 				81F41DAAA0F339CAA4A45113 /* AeroGearOTPTests.xctest */,
+				83416904201C475A00382C64 /* AeroGearOTP.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,7 +182,7 @@
 				A0AD30951677D2ED00104932 /* Classes */,
 				57A0DA83165E2CFA00F6965A /* AeroGearOTP.h */,
 			);
-			path = "AeroGearOTP";
+			path = AeroGearOTP;
 			sourceTree = "<group>";
 		};
 		81F41B5BE5FFADC666E61AA4 /* Supporting Files */ = {
@@ -158,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				6F303D3816E7967B00F88AC0 /* common.xcconfig */,
+				83416905201C475A00382C64 /* AeroGearOTP_Mac */,
 				81F415AECDD9C8C189F9DF76 /* Products */,
 				81F41D392730CBCAA494FACD /* Frameworks */,
 				81F41A4F242A5F3F8A0988CD /* AeroGearOTP */,
@@ -178,10 +219,20 @@
 			isa = PBXGroup;
 			children = (
 				81F41D8D0107C4A79962F802 /* Foundation.framework */,
+				8341690C201C47B000382C64 /* Foundation.framework */,
 				81F4106D1F3FE8FB17BDE31F /* UIKit.framework */,
 				55183D61952EC710A4FBAC31 /* libPods-AeroGearOTPTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83416905201C475A00382C64 /* AeroGearOTP_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				83416906201C475B00382C64 /* AeroGearOTP_Mac.h */,
+				83416907201C475B00382C64 /* Info.plist */,
+			);
+			path = AeroGearOTP_Mac;
 			sourceTree = "<group>";
 		};
 		A0AD30951677D2ED00104932 /* Classes */ = {
@@ -216,8 +267,8 @@
 			);
 			dependencies = (
 			);
-			name = "AeroGearOTP";
-			productName = "AeroGearOTP";
+			name = AeroGearOTP;
+			productName = AeroGearOTP;
 			productReference = 81F41621D94B6B79552689A3 /* libAeroGearOTP.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -237,10 +288,27 @@
 			dependencies = (
 				81F41B220FACB32A3BFE2685 /* PBXTargetDependency */,
 			);
-			name = "AeroGearOTPTests";
-			productName = "AeroGearOTPTests";
+			name = AeroGearOTPTests;
+			productName = AeroGearOTPTests;
 			productReference = 81F41DAAA0F339CAA4A45113 /* AeroGearOTPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83416903201C475A00382C64 /* AeroGearOTP_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8341690B201C475B00382C64 /* Build configuration list for PBXNativeTarget "AeroGearOTP_Mac" */;
+			buildPhases = (
+				834168FF201C475A00382C64 /* Sources */,
+				83416900201C475A00382C64 /* Frameworks */,
+				8341690E201C47C100382C64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AeroGearOTP_Mac;
+			productName = AeroGearOTP_Mac;
+			productReference = 83416904201C475A00382C64 /* AeroGearOTP.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -250,6 +318,12 @@
 			attributes = {
 				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					83416903201C475A00382C64 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 81F4135C0429595CE78B95FB /* Build configuration list for PBXProject "AeroGearOTP" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -264,6 +338,7 @@
 			projectRoot = "";
 			targets = (
 				81F412E1D1AC3AA31388DBC2 /* AeroGearOTP */,
+				83416903201C475A00382C64 /* AeroGearOTP_Mac */,
 				81F41B0DE92C2117AB2F5685 /* AeroGearOTPTests */,
 			);
 		};
@@ -358,6 +433,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		834168FF201C475A00382C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83416915201C47DE00382C64 /* AGTotp.m in Sources */,
+				83416916201C47DE00382C64 /* AGOtp.m in Sources */,
+				83416917201C47DE00382C64 /* AGClock.m in Sources */,
+				83416918201C47DE00382C64 /* AGStringEncoding.m in Sources */,
+				83416919201C47DE00382C64 /* AGBase32.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -391,7 +478,7 @@
 				INFOPLIST_FILE = "AeroGearOTPTests/AeroGearOTPTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.abstractj.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "AeroGearOTPTests";
+				PRODUCT_NAME = AeroGearOTPTests;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
@@ -400,12 +487,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F303D3816E7967B00F88AC0 /* common.xcconfig */;
 			buildSettings = {
-				DSTROOT = "/tmp/AeroGearOTP.dst";
+				DSTROOT = /tmp/AeroGearOTP.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AeroGearOTP/AeroGearOTP-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "AeroGearOTP";
+				PRODUCT_NAME = AeroGearOTP;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -499,12 +586,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F303D3816E7967B00F88AC0 /* common.xcconfig */;
 			buildSettings = {
-				DSTROOT = "/tmp/AeroGearOTP.dst";
+				DSTROOT = /tmp/AeroGearOTP.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AeroGearOTP/AeroGearOTP-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "AeroGearOTP";
+				PRODUCT_NAME = AeroGearOTP;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -520,8 +607,88 @@
 				INFOPLIST_FILE = "AeroGearOTPTests/AeroGearOTPTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.abstractj.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "AeroGearOTPTests";
+				PRODUCT_NAME = AeroGearOTPTests;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		83416909201C475B00382C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = AeroGearOTP_Mac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.bedroom.TorinKwok.AeroGearOTP-Mac";
+				PRODUCT_NAME = AeroGearOTP;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8341690A201C475B00382C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = AeroGearOTP_Mac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.bedroom.TorinKwok.AeroGearOTP-Mac";
+				PRODUCT_NAME = AeroGearOTP;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -551,6 +718,15 @@
 			buildConfigurations = (
 				81F410AF524515CE7BC278A9 /* Release */,
 				81F41CFF5D524408C8725BE5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8341690B201C475B00382C64 /* Build configuration list for PBXNativeTarget "AeroGearOTP_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83416909201C475B00382C64 /* Release */,
+				8341690A201C475B00382C64 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
